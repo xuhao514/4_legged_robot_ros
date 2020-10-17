@@ -207,6 +207,7 @@ add_executable(control
   src/leg.cpp
   src/utils.cpp
   src/walk_leg.cpp
+  src/walk.cpp
 )
 add_dependencies(control ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(control
